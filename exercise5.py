@@ -78,7 +78,6 @@ def bayesian_opt():
     return inc, runtime
 
 def plot_(l1, l2, title):
-
     epochs = np.array([i for i in range(50)])
 
     plt.plot(epochs, l1, label='bayesian')
