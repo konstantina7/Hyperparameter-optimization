@@ -14,6 +14,7 @@ def objective_function(x, epoch=40):
         which was trained on the validation error of randomly sampled hyperparameter configurations.
         The original surrogate predicts the validation error after a given epoch. Since all hyperparameter configurations were trained for a total amount of 
         40 epochs, we will query the performance after epoch 40.
+        
     """
     
     # Normalize all hyperparameter to be in [0, 1]
